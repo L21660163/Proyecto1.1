@@ -1,0 +1,117 @@
+/* --- Text Colors --- */
+
+.color-red {
+    color: red;
+}
+
+.highlight-orange {
+    color: #FF8000;
+    /* Color naranja para los títulos */
+}
+
+.text-primary-custom {
+    color: #405F7D;
+    /* Color azul personalizado para los textos */
+}
+
+.textblue {
+    color: #1292CF;
+}
+
+/* Titulos */
+h1, h2, h3, h4, h5 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.75em;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+/* --- Buttons --- */
+
+.btn-danger-custom {
+    background-color: rgb(255, 0, 0);
+    /* Color rojo para el botón de continuar */
+    border: none;
+}
+
+.btn-custom {
+    background-color: #638CB5;
+    /* Color personalizado para los botones */
+    color: white;
+    /* Color del texto en los botones */
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #51789A;
+    /* Color más oscuro al hacer hover */
+}
+
+
+/* Formulario */
+
+/* Estilos personalizados para el formulario */
+.highlight-blue {
+    color: #2779B6;
+}
+
+.form-control {
+    border: 2px solid #2779B6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    font-weight: bold;
+    color: #2779B6;
+}
+
+.form-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: #2779B6;
+    border-color: #2779B6;
+}
+
+.btn-primary:hover {
+    background-color: #1f5f8c;
+    border-color: #1f5f8c;
+}
+
+.btn-secondary {
+    border-color: #2779B6;
+    color: #2779B6;
+}
+
+.btn-secondary:hover {
+    background-color: #2779B6;
+    color: #fff;
+}
